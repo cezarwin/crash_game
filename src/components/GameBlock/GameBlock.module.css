@@ -1,0 +1,13 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100vh - 250px); /* Или нужная высота */
+}
+
+.fullScreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100vh - 125px); /* Или нужная высота */
+}

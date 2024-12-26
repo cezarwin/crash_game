@@ -1,0 +1,13 @@
+.container {
+  height: 100%;
+  display: grid;
+  grid-template:
+      "info info" 69px
+      "bets history" 57px
+      "bets canvas" 1fr
+      "bets make-bet" max-content / 332px 1fr;
+  border-right: none;
+
+  background:rgb(21, 16, 40);
+  padding-right: 15px;
+}
